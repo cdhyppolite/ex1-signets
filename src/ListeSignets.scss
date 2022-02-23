@@ -1,11 +1,28 @@
 .ListeSignets {
+    @media (max-width: 575px) {
+        background-color: blue;
+    }
+    @media (min-width:576px) and (max-width:991px) {
+        background-color: red;
+    }
+    @media (min-width:992px) {
+        background-color: gold;
+    }
     padding: 2rem;
     h2 {
         font-size: 2rem;
     }
     .Signets {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
+        @media (max-width: 575px) {
+            justify-content: center;
+        }
+        @media (min-width: 576px) and (max-width: 991px) {
+            justify-content: space-between;
+        }
+        @media (min-width: 992px) {
+            justify-content: space-between;
+        }
     }
 }
