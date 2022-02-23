@@ -7,10 +7,9 @@ export default function Signet(props) {
         <article className="Signet">
         <div className="Signet__divImg">
             <div className='btnSig haut'>Test</div>
-            {/* <div className='btnSig' width={btnSigTaille} height={btnSigTaille}>Test</div> */}
             <img src={"img/signets/" + props.sid + ".webp"} alt={props.nom} />
         </div> 
-        <div className="titre">
+        <div className="titre" style={{ backgroundColor: props.couleur }}>
             {props.nom}
             <h6>{props.date}</h6>
             <h6>{ficherImage}</h6>

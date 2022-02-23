@@ -1,21 +1,26 @@
 [{
         "id": "sig0001",
-        "nom": "Gusty Garden"
+        "nom": "Gusty Garden",
+        "couleur": "red"
     },
     {
         "id": "sig0002",
-        "nom": "FreezeFLame"
+        "nom": "FreezeFLame",
+        "couleur": "#000000"
     },
     {
         "id": "sig0003",
-        "nom": "Melty Molten"
+        "nom": "Melty Molten",
+        "couleur": "yellow"
     },
     {
         "id": "sig0004",
-        "nom": "Moon Kingdom"
+        "nom": "Moon Kingdom",
+        "couleur": "yellow"
     },
     {
         "id": "sig0005",
-        "nom": "Lunar Colony"
+        "nom": "Lunar Colony",
+        "couleur": "yellow"
     }
 ]
