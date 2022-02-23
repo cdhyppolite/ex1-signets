@@ -11,6 +11,7 @@
         color: ivory;
         background-color: gold;
         text-align: left;
+        border-top: 3px solid black;
     }
     &:nth-of-type(even) .titre {
         // background-color: lightcoral;
@@ -31,11 +32,17 @@
         color: white;
         z-index: 1;
         position: absolute;
-        background-color: hsla(0, 0%, 0%, 0.5);
+        background-color: hsla(0, 0%, 0%, 0.3);
         width: 35px;
         height: 35px;
         border-radius: 50%;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & svg {
+            cursor: pointer;
+        }
         &.haut {
             top: 15px;
             left: 15px;

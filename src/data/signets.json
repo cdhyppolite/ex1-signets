@@ -1,26 +1,37 @@
 [{
         "id": "sig0001",
         "nom": "Gusty Garden",
-        "couleur": "red"
+        "couleur": "green",
+        "date": "1er Novembre 2007"
     },
     {
         "id": "sig0002",
         "nom": "FreezeFLame",
-        "couleur": "#000000"
+        "couleur": "lightblue",
+        "date": "1er Novembre 2007"
     },
     {
         "id": "sig0003",
         "nom": "Melty Molten",
-        "couleur": "yellow"
+        "couleur": "darkred",
+        "date": "1er Novembre 2007"
     },
     {
         "id": "sig0004",
         "nom": "Moon Kingdom",
-        "couleur": "yellow"
+        "couleur": "grey",
+        "date": "27 Octobre 2017"
     },
     {
         "id": "sig0005",
         "nom": "Lunar Colony",
-        "couleur": "yellow"
+        "couleur": "chocolate",
+        "date": "28 Avril 2017"
+    },
+    {
+        "id": "sig0006",
+        "nom": "Sweet Sweet Kingdom",
+        "couleur": "deeppink",
+        "date": "28 Avril 2017"
     }
 ]
