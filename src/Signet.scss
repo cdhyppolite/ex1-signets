@@ -1,15 +1,19 @@
 .Signet {
+    position: relative;
     margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: ivory;
+    // padding: 0.5rem;
+    // background-color: ivory;
     box-shadow: 5px 5px 15px 2px rgba(80, 78, 77, 0.75);
     width: 300px;
     .titre {
         font-size: 1.25rem;
         font-weight: bold;
         color: ivory;
-        background-color: brown;
+        background-color: gold;
         text-align: left;
+    }
+    &:nth-of-type(even) .titre {
+        background-color: lightcoral;
     }
     &__divImg {
         display: flex;
@@ -21,7 +25,24 @@
         // width: 100%;
     }
     div {
-        border: 1px solid black;
         overflow: hidden;
+    }
+    .btnSig {
+        color: white;
+        z-index: 1;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        overflow: hidden;
+        &.haut {
+            top: 15px;
+            left: 15px;
+        }
+        &.bas {
+            bottom: 15px;
+            right: 15px;
+        }
     }
 }
