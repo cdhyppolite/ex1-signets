@@ -4,6 +4,9 @@ import './Entete.scss';
 
 export default function Entete(props) {
     let nom = "Carl-David Hyppolite";
+    // let nom = prompt("Entrez votre nom:", "Carl-David Hyppolite");
+    let logo ="1";
+    if (nom != "Carl-David Hyppolite") logo = "2";
     let imgTaille =30;
     return (
         <header className="Entete">
@@ -11,7 +14,7 @@ export default function Entete(props) {
             <nav>
                 <a href="#">{nom}</a>
                 <div>
-                    <img src="img/logo.png" alt="logo" width={imgTaille} height={imgTaille}/>
+                    <img src={"img/logos/logo"+logo+".png"} alt="logo" width={imgTaille} height={imgTaille}/>
                 </div>
             </nav>
         </header>

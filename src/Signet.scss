@@ -1,0 +1,27 @@
+.Signet {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: ivory;
+    box-shadow: 5px 5px 15px 2px rgba(80, 78, 77, 0.75);
+    width: 300px;
+    .titre {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: ivory;
+        background-color: brown;
+        text-align: left;
+    }
+    &__divImg {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        // width: 240px;
+        height: 170px;
+        // width: 100%;
+    }
+    div {
+        border: 1px solid black;
+        overflow: hidden;
+    }
+}
