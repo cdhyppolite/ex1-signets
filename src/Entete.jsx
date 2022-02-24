@@ -14,7 +14,7 @@ export default function Entete(props) {
             <nav>
                 <a href="#">{nom}</a>
                 <div>
-                    <img src={"img/logos/logo"+logo+".png"} alt="logo" width={imgTaille} height={imgTaille}/>
+                    <img src={"img/logos/logo"+logo+".webp"} alt="logo" width={imgTaille} height={imgTaille}/>
                 </div>
             </nav>
         </header>
