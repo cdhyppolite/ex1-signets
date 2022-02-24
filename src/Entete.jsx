@@ -1,6 +1,9 @@
 import './Entete.scss';
-// import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
-// import Badge from '@mui/material/Badge';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LogoutIcon from '@mui/icons-material/Logout';
+import LanguageIcon from '@mui/icons-material/Language';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+// https://mui.com/components/material-icons/
 
 export default function Entete(props) {
     let nom = "Carl-David Hyppolite";
@@ -12,9 +15,18 @@ export default function Entete(props) {
         <header className="Entete">
             <h1>Signets</h1>
             <nav>
+            <input type="checkbox" id="cc-option-user" />
+                <div className="option-user">
+                    <div><SettingsIcon/></div>
+                    <div><LanguageIcon/></div>
+                    <div><Brightness4Icon/></div>
+                    <div><LogoutIcon/></div>
+                </div>
                 <a href="#">{nom}</a>
                 <div>
-                    <img src={"img/logos/logo"+logo+".webp"} alt="logo" width={imgTaille} height={imgTaille}/>
+                    <label htmlFor="cc-option-user">
+                        <img src={"img/logos/logo"+logo+".webp"} alt="logo" width={imgTaille} height={imgTaille} />
+                    </label>
                 </div>
             </nav>
         </header>
