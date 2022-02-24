@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ex1-signets/static/css/main.4ad88e1d.css",
-    "main.js": "/ex1-signets/static/js/main.00898128.js",
+    "main.js": "/ex1-signets/static/js/main.cc0e5454.js",
     "index.html": "/ex1-signets/index.html",
     "main.4ad88e1d.css.map": "/ex1-signets/static/css/main.4ad88e1d.css.map",
-    "main.00898128.js.map": "/ex1-signets/static/js/main.00898128.js.map"
+    "main.cc0e5454.js.map": "/ex1-signets/static/js/main.cc0e5454.js.map"
   },
   "entrypoints": [
     "static/css/main.4ad88e1d.css",
-    "static/js/main.00898128.js"
+    "static/js/main.cc0e5454.js"
   ]
 }
