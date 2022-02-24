@@ -25,7 +25,7 @@ export default function Entete(props) {
                 <a href="#">{nom}</a>
                 <div>
                     <label htmlFor="cc-option-user">
-                        <img src={"img/logos/logo"+logo+".webp"} alt="logo" width={imgTaille} height={imgTaille} />
+                        <img src={"img/logos/Logo"+logo+".webp"} alt="logo" width={imgTaille} height={imgTaille} />
                     </label>
                 </div>
             </nav>
